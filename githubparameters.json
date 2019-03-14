@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "ga-webapp"
+        },
+        "dockerRegistryUrl": {
+            "value": "https://index.docker.io"
+        },
+        "hostingPlanName": {
+            "value": "b2core"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "serverFarmResourceGroup": {
+            "value": "ronai-dnd"
+        },
+        "subscriptionId": {
+            "value": "afc11291-9826-46be-b852-70349146ddf8"
+        }
+    }
+}
